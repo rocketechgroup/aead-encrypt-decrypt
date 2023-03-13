@@ -5,11 +5,6 @@ load the data into BigQuery and decrypt the data using BigQuery's AEAD functions
 Both encryption & decryption are done using the same KMS key ring. 
 
 ## Build & Run
-Install `bazel` first which is required by the Tink library. 
+> Please note due to support issues with the Tinker library on a Silicon Mac, this code does not yet work on it
 ```
-brew install bazel
-```
-Build the container
-```
-docker build -t aead-encrypt-decrypt .
-```
+WIP
